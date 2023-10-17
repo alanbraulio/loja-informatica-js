@@ -476,8 +476,8 @@ document.addEventListener("DOMContentLoaded", function(){
     loading.style.display = "block";
 
     const data = {
-      to: "alan-braulio@hotmail.com",
-      from: "albtech24@gmail.com",
+      to: "email que vc quer receber os dados do form",
+      from: "email do sendgrid",
       subject: "Contato do site",
       text: "Contato do site",
       html: `<p>Nome: ${name}</p><br/><p>Email: ${email}</p><br/><p>Celular: ${cellphone}</p><br/><p>Assunto: ${subject}</p><br/><p>Mensagem: ${message}</p>`
